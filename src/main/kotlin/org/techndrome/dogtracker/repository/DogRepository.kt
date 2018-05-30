@@ -11,7 +11,8 @@ import org.techndrome.dogtracker.model.Dog
 class DogRepository {
 
     @Autowired
-    val dogList: MutableList<Dog> = ArrayList<Dog>()
+    val dogSet: MutableSet<Dog> = HashSet<Dog>()
 
-    fun getAllDogs(): List<Dog> = dogList
+    fun getAllDogs(): Set<Dog> = dogSet
+
 }

@@ -11,6 +11,6 @@ import org.techndrome.dogtracker.model.Dog
 class DogTrackerConfig {
 
     @Bean
-    fun dogs() = listOf(Dog(123L, "Sparky"), Dog(345L, "Fido"))
+    fun dogs() = setOf(Dog(123L, "Sparky"), Dog(345L, "Fido"))
 
 }
