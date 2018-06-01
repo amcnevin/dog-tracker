@@ -26,7 +26,7 @@ class NoiseGenService {
     }
 
     fun moveDog(dog: Dog) {
-        dog.coord.x = rand.nextDouble()
-        dog.coord.y = rand.nextDouble()
+        dog.coord.x = rand.nextInt()
+        dog.coord.y = rand.nextInt()
     }
 }

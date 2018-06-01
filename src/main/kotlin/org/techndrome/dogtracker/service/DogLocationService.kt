@@ -18,6 +18,4 @@ class DogLocationService {
 
     fun getAllDogs() : Set<Dog> = dogRepo.getAllDogs()
 
-
-
 }
